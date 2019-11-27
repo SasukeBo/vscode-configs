@@ -1,0 +1,137 @@
+{
+  // file
+  "files.eol": "\n",
+  "files.autoSave": "off",
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.simpleDialog.enable": true,
+  "files.associations": {
+    "*.cjson": "jsonc",
+    "*.wxss": "css",
+    "*.wxs": "javascript"
+  },
+  // editor
+  "editor.tabSize": 2,
+  "editor.useTabStops": false,
+  "editor.quickSuggestionsDelay": 5,
+  "editor.renderWhitespace": "none",
+  "editor.foldingStrategy": "indentation",
+  "editor.detectIndentation": false,
+  "editor.minimap.maxColumn": 60,
+  "editor.minimap.renderCharacters": false,
+  "editor.suggest.maxVisibleSuggestions": 8,
+  "editor.fontSize": 13,
+  "editor.minimap.enabled": false,
+  // explorer
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  // window
+  "window.zoomLevel": 0,
+  "window.openFilesInNewWindow": "default",
+  // debug
+  "debug.node.autoAttach": "off",
+  "debug.onTaskErrors": "debugAnyway",
+  // default formatter
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // terminal
+  "terminal.external.osxExec": "iTerm",
+  "terminal.integrated.fontSize": 14,
+  // todohighlight
+  "todohighlight.include": [
+    "**/*.js",
+    "**/*.jsx",
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.html",
+    "**/*.php",
+    "**/*.css",
+    "**/*.scss",
+    "**/*.go"
+  ],
+  "todohighlight.isEnable": true,
+  // vetur
+  // "vetur.format.defaultFormatterOptions": {
+  // "js-beautify-html": {
+  // "wrap_attributes": "force-expand-multiline"
+  // },
+  // "prettyhtml": {
+  // "printWidth": 100,
+  // "singleQuote": false,
+  // "wrapAttributes": false,
+  // "sortAttributes": false
+  // }
+  // },
+  // "vetur.experimental.templateInterpolationService": false,
+  "vetur.format.defaultFormatter.js": "none",
+  "prettier.configPath": "/Users/sasuke/.prettierrc.json",
+  // eslint
+  "eslint.options": {
+    "extensions": [
+      ".js",
+      ".vue"
+    ],
+    "configFile": "/Users/sasuke/.eslintrc"
+  },
+  "eslint.enable": true,
+  "eslint.autoFixOnSave": false,
+  "eslint.run": "onType",
+  "eslint.alwaysShowStatus": true,
+  "eslint.validate": [
+    "javascript",
+    {
+      "language": "vue",
+      "autoFix": true
+    },
+  ],
+  // C_Cpp
+  "C_Cpp.default.cppStandard": "c++11",
+  "C_Cpp.default.cStandard": "c11",
+  "C_Cpp.errorSquiggles": "Enabled",
+  "C_Cpp.intelliSenseEngineFallback": "Enabled",
+  // javascript
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.format.enable": true,
+  // python
+  "python.jediEnabled": false,
+  // go
+  "go.buildOnSave": "off",
+  "go.formatTool": "goformat",
+  // other
+  "emmet.includeLanguages": {
+    "wxml": "html"
+  },
+  "breadcrumbs.enabled": true,
+  "minapp-vscode.disableAutoConfig": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "extensions.ignoreRecommendations": true,
+  "auto-close-tag.activationOnLanguage": [
+    "xml",
+    "php",
+    "blade",
+    "ejs",
+    "jinja",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "plaintext",
+    "markdown",
+    "vue",
+    "liquid",
+    "erb",
+    "lang-cfml",
+    "cfml",
+    "HTML (Eex)",
+    "wxml"
+  ],
+  "oneDarkPro.editorTheme": "Onedark Pro",
+}
